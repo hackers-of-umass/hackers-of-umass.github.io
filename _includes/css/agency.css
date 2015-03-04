@@ -696,28 +696,28 @@ section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #bbb;
+    color: #{{ site.color.primary }};
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #bbb;
+    color: #{{ site.color.primary }};
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #bbb;
+    color: #{{ site.color.primary }};
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #bbb;
+    color: #{{ site.color.primary }};
 }
 
 section#contact .text-danger {
