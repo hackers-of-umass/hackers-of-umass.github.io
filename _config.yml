@@ -1,8 +1,22 @@
 url: http://hackers-of-umass.github.io
 
+# Members
+members:
+    -
+        name: Ty-Lucas Kelley
+        url: http://www.tylucaskelley.com
+    -
+        name: Adonis Familia
+    -
+        name: Leo Lin
+        url: http://www.leoxlin.com/
+    -
+        name: Bob Ambrose
+
+
 # Site settings
 title: Hackers of UMass
-email: your-email@domain.com
+email: hackersofumass@gmail.com
 description: "We're the hackers, builders, makers, and innovators of UMass Amherst."
 
 # Colors
@@ -10,6 +24,12 @@ color:
   primary: ff6e00
   secondary: ff8600
   secondary-dark: 452411
+
+# Font stack
+font:
+    logo: "'Shadows Into Light', cursive"
+    text: "'Merriweather', sans-serif"
+    accent: "'Lato', sans-serif"
 
 # Social networks
 social:
@@ -19,6 +39,8 @@ social:
     url: https://github.com/hackers-of-umass
   - title: slack
     url: https://umassacm.slack.com/messages/hackers-of-umass
+  - title: envelope
+    url: mailto:hackersofumass@gmail.com
 
 # Build settings
 markdown: kramdown
