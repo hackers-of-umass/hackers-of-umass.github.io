@@ -14,6 +14,9 @@ members:
         name: Bob Ambrose
     -
         name: Kevin Gurney
+    -
+        name: Nathan Fuller
+        url: http://people.umass.edu/nefuller/
 
 
 # Site settings
