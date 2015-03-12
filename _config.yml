@@ -2,22 +2,17 @@ url: http://hackers-of-umass.github.io
 
 # Members
 members:
-    -
-        name: Ty-Lucas Kelley
-        url: http://www.tylucaskelley.com
-    -
-        name: Adonis Familia
-    -
-        name: Leo Xuzhang Lin
-        url: http://www.leoxlin.com/
-    -
-        name: Bob Ambrose
-    -
-        name: Kevin Gurney
-    -
-        name: Nathan Fuller
-        url: http://people.umass.edu/nefuller/
-
+    - name: Ty-Lucas Kelley
+      url: http://www.tylucaskelley.com
+    - name: Adonis Familia
+    - name: Leo Xuzhang Lin
+      url: http://www.leoxlin.com/
+    - name: Bob Ambrose
+    - name: Kevin Gurney
+    - name: Nathan Fuller
+      url: http://people.umass.edu/nefuller/
+    - name: Aaron Weiss
+      url: http://aaronweiss.us/
 
 # Site settings
 title: Hackers of UMass
