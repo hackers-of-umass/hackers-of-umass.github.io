@@ -16,7 +16,7 @@
                 <ul class="list-group">
                     {% for member in site.members %}
                     <li class="list-group-item">
-                        {% if member.url %}<a href="{{ member.url }}">{% endif %}{{ member.name }}{% if member.url %}</a>{% endif %}
+                        {% if member.url %}<a target="_blank" href="{{ member.url }}">{% endif %}{{ member.name }}{% if member.url %}</a>{% endif %}
                     </li>
                     {% endfor %}
                 </ul>
