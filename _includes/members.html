@@ -10,16 +10,42 @@
         <div class="row">
             <div class="col-md-6">
                 <h4>How to become a member</h4>
-                <p>There are only two steps to joining us! First, join the UMass ACM chapter <a href="http://umass.acm.org/members/" target="_blank">here</a>. Second, add yourself to this list using <a href="https://github.com/hackers-of-umass/hackers-of-umass.github.io" target="_blank">Git</a>. Don't know how? Come to a meeting and we'll show you!</p>
-                <p>You should also add yourself to our mailing list below:</p>
-                <p>
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe class="embed-responsive-item" src="https://docs.google.com/a/umass.edu/forms/d/19vCa-L3I0x0xVonI8Em_e3Qd5ykLBe-9SHcXpVS__6U/viewform?embedded=true" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-                    </div>
-                <p>
+                <p>There are only a few steps to joining us!
+                    <ol>
+                        <li>Join the UMass ACM chapter <a href="http://umass.acm.org/members/" target="_blank">here</a>.</li>
+                        <li>Add yourself to this list using <a href="https://github.com/hackers-of-umass/hackers-of-umass.github.io" target="_blank">Git</a>.</li>
+                        <li><a href="https://www.facebook.com/groups/hackersofumass/" target="_blank">Join us on Facebook</a> to get the latest event updates and news!</li>
+                    </ol>
+                    <p>You should also add yourself to our mailing list below to subcribe to our newsletter:</p>
+                    <form action="//formspree.io/hackersofumass@gmail.com" method="POST">
+                        <div class="form-group">
+                            <label for="memberName">Name</label>
+                            <input name="name" required type="text" class="form-control" id="memberName" placeholder="Cool Person">
+                        </div>
+                        <div class="form-group">
+                            <label for="memberEmail">Email Address</label>
+                            <input name="_replyto" required type="email" class="form-control" id="memberEmail" placeholder="coolperson@umass.edu">
+                        </div>
+                        <div class="form-group">
+                            <label for="memberFB">Facebook URL</label>
+                            <input name="facebook" type="text" class="form-control" id="memberFB" placeholder="https://facebook.com/coolperson">
+                        </div>
+                        <div class="form-group">
+                            <label for="memberLinkedIn">LinkedIn URL</label>
+                            <input name="linkedin" type="text" class="form-control" id="memberLinkedIn" placeholder="https://linkedin.com/in/coolperson">
+                        </div>
+                        <div class="form-group">
+                            <label for="memberMessage">Send us a message!</label>
+                            <textarea name="message" maxlength="500" class="form-control" id="memberMessage" placeholder="Hackers of UMass is the coolest club on campus!"></textarea>
+                        </div>
+                        <input type="text" name="_gotcha" style="display:none">
+                        <button type="submit" class="btn btn-default btn-primary">Submit</button>
+                    </form>
             </div>
             <div class="col-md-6">
-                <ul class="list-group">
+                <h4>Our members</h4>
+                <p>You could be here too!</p>
+                <ul class="list-group members">
                     {% for member in site.members %}
                     <li class="list-group-item">
                         {% if member.url %}<a target="_blank" href="{{ member.url }}">{% endif %}{{ member.name }}{% if member.url %}</a>{% endif %}

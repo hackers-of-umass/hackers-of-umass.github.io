@@ -881,3 +881,8 @@ body {
 #full-calendar .fc-view-container {
     color: #{{ site.color.primary }};
 }
+
+.members {
+    max-height: 620px;
+    overflow: auto;
+}
