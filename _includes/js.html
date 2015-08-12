@@ -17,3 +17,21 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.3.0/fullcalendar.min.js"></script>
     <script src="{{ "/js/gcal.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/calendar.js" | prepend: site.baseurl }}"></script>
+
+    <!-- Mailchimp -->
+    <script type="text/javascript">
+        (function($) {
+            window.fnames = new Array();
+            window.ftypes = new Array();
+            fnames[0] = 'EMAIL';
+            ftypes[0] = 'email';
+            fnames[3] = 'MMERGE3';
+            ftypes[3] = 'text';
+            fnames[4] = 'MMERGE4';
+            ftypes[4] = 'text';
+            fnames[5] = 'MMERGE5';
+            ftypes[5] = 'text';
+        }(jQuery));
+
+        var $mcj = jQuery.noConflict(true);
+    </script>
