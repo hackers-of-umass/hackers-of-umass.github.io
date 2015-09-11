@@ -11,7 +11,8 @@
                 left: 'title',
                 center: '',
                 right: 'prev,next'
-            }
+            },
+            eventColor: '#ff6e00'
         });
     });
 })(jQuery);
