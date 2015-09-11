@@ -5,6 +5,9 @@
             eventSources: [
                 {
                     googleCalendarId: 'hackersofumass@gmail.com'
+                },
+                {
+                    url: 'http://cal.mlh.io'
                 }
             ],
             header: {
