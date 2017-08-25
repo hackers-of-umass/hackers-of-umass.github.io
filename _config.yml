@@ -2,6 +2,8 @@ url: http://hackers-of-umass.github.io
 
 # Members
 members:
+    - name: Aman Jha
+      url: http://www.amanjha.me
     - name: Wilson Chen
     - name: John Ferrera
     - name: Frederick Coburn
@@ -148,6 +150,9 @@ members:
     - name: Quentin Small
       url: http://www.qsmalljr.com
     - name: Pritish Yuvraj
+    - name: Jack Bachman
+      url: https://thecynosure.github.io/
+
 # Site settings
 title: Hackers of UMass
 email: hackersofumass@gmail.com
