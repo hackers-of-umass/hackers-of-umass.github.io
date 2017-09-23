@@ -2,13 +2,6 @@ url: http://hackers-of-umass.github.io
 
 # Members
 members:
-    - name: Chung Hin Lee
-      url: https://lchsam.github.io
-    - name: Aman Jha
-      url: http://www.amanjha.me
-    - name: Wilson Chen
-    - name: John Ferrera
-    - name: Frederick Coburn
     - name: Ty-Lucas Kelley
       url: http://www.tylucaskelley.com
     - name: Adonis Familia
@@ -38,6 +31,13 @@ members:
     - name: Dan Bergevin
     - name: Bob Ambrose
     - name: Derek Dobosz
+    - name: Chung Hin Lee
+      url: https://lchsam.github.io
+    - name: Aman Jha
+      url: http://www.amanjha.me
+    - name: Wilson Chen
+    - name: John Ferrera
+    - name: Frederick Coburn
     - name: Kaitlin Menzie
     - name: Adish Rai
     - name: Hoang Nguyen
@@ -154,7 +154,8 @@ members:
     - name: Pritish Yuvraj
     - name: Jack Bachman
       url: https://thecynosure.github.io/
-    - name: Sanjay Reddy S  
+    - name: Sanjay Reddy S
+    - name: Dante Arcese
     - name: John Burns
 
 # Site settings
